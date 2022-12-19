@@ -1,0 +1,331 @@
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+
+}
+.header{
+min-height:100vh ;
+width: 100%;
+background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/kutty\ bai\ oo7.jpg);
+background-size:cover ;
+background-position:center ;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px 7% ;
+}
+.logo{
+  width: 140px;
+  cursor: pointer;
+}
+.nav-link li{
+  list-style: none;
+  display: inline-block;
+  margin:10px 30px ;
+}
+.nav-link li a{
+  text-decoration:none ;
+  color:#fff ;
+}
+.register-btn{
+background:#fff ;
+color: #000;
+padding:8px 20px ;
+border-radius: 20px;
+text-decoration:none ;
+font-size:14px ;
+}
+.container{
+   padding: 0 7%;
+}
+.header h1{
+font-size:  4vw; ;
+font-weight: 500;
+color: #fff;
+text-align: center;
+padding: top 22%; ;
+}
+.search-bar{
+background: #fff;
+width: 70% ;
+margin:30px auto ;
+padding:6px 10px 6px 30px;
+border-radius:  50px;
+size: 20px;
+}
+.search-bar form{
+  display: flex;
+  align-items: center;
+ flex-wrap: wrap;
+}
+.search-bar form input{
+display: block;
+border: 0;
+outline:none ;
+background:transparent ;
+
+}
+.search-bar form button{
+background-color: #ff5361;
+width: 55px;
+height: 55px;
+border-radius: 50%;
+border:0 ;
+outline: none;
+cursor: pointer;
+}
+.search-bar form button img{
+   width: 10px;
+  margin-top:5px ;
+
+}
+.location-input{
+     flex: 1;
+}
+.search-bar form label{
+   font-weight:60;
+}
+/*-----------DEVELOPED AREA -------*/
+.sub title{
+margin: 50px 0 20px;
+font-size: 2.2vw;
+font-weight: 500;
+color: red;
+}
+.exclusives{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+grid-gap: 30px;
+margin-bottom: 30px;
+}
+.exclusives div img {
+   width: 100%;
+border-radius: 10px;
+}
+.exclusives div{
+ position: relative;
+}
+.exclusives div span {
+color:black;
+}
+/*-----------DEVELOPED AREA -------*/
+.sub title{
+  margin: 50px 0 20px;
+  font-size: 2.2vw;
+  font-weight: 500;
+  color: red;
+  }
+  .exclusives{
+    display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  grid-gap: 30px;
+  }
+  .exclusives div img {
+       width: 100%;
+  border-radius: 10px;
+  }
+  .exclusives div{
+     position: relative;
+  }
+  .exclusives div span {
+  color:rgb(0, 0, 0);
+  }
+/*---------- CALL TO ACTION-------------*/
+  .cta{
+   margin: 80px 0;
+   background-image: linear-gradient(to right,#3f2322, transparent),url(images/banner\ 3.jpeg);
+   background-size: cover;
+   background-position:center ;
+   border-radius: 10px;
+   padding:5% ;
+   color: #fff;
+  }
+.cta h3{
+font-size: large;
+line-height: 5.3vw;
+font-weight: 500;
+}
+.cta p{
+font-size: 18px;
+margin: 10px 0;
+}
+.cta-btn{
+background-color: #ff5361;
+color: #fff;
+text-decoration: none;
+padding: 12px 30px;
+border-radius: 8px;
+margin-top: 20px;
+display: inline-block;
+}
+/*-----------------TRAVELLERS STORIES--------------*/
+.STORIES{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+grid-gap: 30px;
+margin-bottom: 30px;
+}
+.STORIES div img {
+width: 100%;
+border-radius: 10px; 
+}
+.STORIES DIV {
+position: relative;
+text-align: center;
+}
+.stories p{
+width: 80%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: #fff;
+font-size: 26px;
+}
+.start-btn{
+text-decoration: none;
+background-color: #ff5361;
+color: #fff;
+width: 80%;
+max-width: 350px;
+display: block;
+text-align: center;
+margin: 60px auto;
+padding: 15px;
+border-radius: 30px;
+font-size: 20px;
+}
+.active{
+position: relative;
+}
+.active::after{
+content:'' ;
+background: #fff;
+width: 25px;
+height: 2px;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+bottom: -12px;
+border-radius: 2px;
+
+}
+.active{
+position: relative;
+}
+.active::after{
+content:'' ;
+background: #fff;
+width: 25px;
+height: 2px;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+bottom: -12px;
+border-radius: 2px;
+}  
+.active{
+  position: relative;
+  }
+  .active::after{
+  content:'' ;
+  background: #fff;
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -12px;
+  border-radius: 2px;
+  }
+  .active{
+    position: relative;
+    }
+    .active::after{
+    content:'' ;
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+    }
+    .active{
+      position: relative;
+      }
+      .active::after{
+      content:'' ;
+      background: #fff;
+      width: 25px;
+      height: 2px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -12px;
+      border-radius: 2px;
+      }
+/*------------------listing page-------*/
+
+.navbar-white{
+background: black;
+box-shadow: 0 5px 10px rgba(red, green, blue, alpha);
+}
+.list-container{
+  margin-top: 50px;
+ display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.left col{
+flex-basis:70% ;
+}
+.lef-col h1{
+  color: #333;
+font-weight: 600 ;
+margin: bottom 30px; ;
+}
+.house {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding: 30px 0;
+    border-top:1px solid #ccc ;
+
+}
+.house-img  img {
+width: 100%;
+border-radius: 12px;
+
+}
+.house-info h3{
+font-weight: 600;
+color: #333;
+font-size: 22px;
+margin: 4px 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
